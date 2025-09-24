@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- C++ / C# derleme çıktıları ---
+**/bin/
+**/obj/
+*.dll
+*.pdb
+*.exe
+core-engine/build/
+core-engine/out/
+
+# --- Büyük veri / arşiv dosyaları ---
+data/
+artifacts/
+*.json
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.parquet
+
+# Küçük, örnek veri koymak istersek (10–15 MB civarı) bu klasörü takip et:
+!samples/
+!samples/**
+
+# --- IDE / geçici dosyalar ---
+.vscode/
+.idea/
+*.user
+*.suo
+
+# --- Log / tmp ---
+*.log
+tmp/
+temp/

@@ -1,0 +1,14 @@
+paths:
+  data_root: "./data/raw/isu-ilcc/RPT_json/RPT_json/Release 1.0"
+  out_dir: "./artifacts"
+
+random_seed: 42
+nominal_capacity_Ah: 2.0
+
+split:
+  group_test_ratio: 0.2
+  groups_test_seed: 42
+
+soh:
+  eol_threshold: 0.80
+  min_points_for_trend: 3
